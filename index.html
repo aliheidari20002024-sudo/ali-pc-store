@@ -1,0 +1,27 @@
+<!doctype html>
+<html lang="fa" dir="rtl">
+<head>
+<meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+<title>تک‌زون | فروشگاه کامپیوتر</title>
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+<header class="header"><div class="wrap nav">
+<a class="brand" href="#home">تک<span>زون</span></a>
+<button class="mobile-btn" id="menuBtn" aria-label="منو">☰</button>
+<nav id="mainNav"><a href="#home">خانه</a><a href="#products">محصولات</a><a href="#categories">دسته‌بندی</a><a href="#about">درباره ما</a><a href="#contact">تماس</a></nav>
+<div class="nav-actions"><button id="themeBtn" title="تغییر حالت">☾</button><button class="cart-btn" id="cartBtn">🛒 <b id="cartCount">۰</b></button></div>
+</div></header>
+<main id="home">
+<section class="hero"><div class="wrap hero-grid"><div><span class="badge">فروشگاه تخصصی کامپیوتر</span><h1>تجهیزات حرفه‌ای برای<br><span>دنیای دیجیتال</span></h1><p>لپ‌تاپ، قطعات، لوازم جانبی و تجهیزات گیمینگ را با تجربه‌ای ساده و سریع پیدا کن.</p><div class="hero-actions"><a class="primary" href="#products">مشاهده محصولات</a><a class="secondary" href="#categories">دسته‌بندی‌ها</a></div></div><div class="hero-card"><div class="pc-art">🖥️</div><div class="spec"><span>PC PRO</span><strong>سیستم‌های حرفه‌ای</strong><small>قدرت بیشتر، تجربه بهتر</small></div></div></div></section>
+<section id="categories" class="section"><div class="wrap"><div class="section-head"><div><small>انتخاب سریع</small><h2>دسته‌بندی محصولات</h2></div></div><div class="cats"><button data-cat="لپ‌تاپ">💻<span>لپ‌تاپ</span></button><button data-cat="قطعات">🧩<span>قطعات کامپیوتر</span></button><button data-cat="گیمینگ">🎮<span>گیمینگ</span></button><button data-cat="لوازم جانبی">⌨️<span>لوازم جانبی</span></button><button data-cat="مانیتور">🖥️<span>مانیتور</span></button><button data-cat="ذخیره‌سازی">💾<span>ذخیره‌سازی</span></button></div></div></section>
+<section id="products" class="section products-section"><div class="wrap"><div class="section-head"><div><small>محصولات منتخب</small><h2>محصولات فروشگاه</h2></div><div class="tools"><input id="search" type="search" placeholder="جستجوی محصول..." aria-label="جستجوی محصول"><select id="sort"><option value="default">مرتب‌سازی</option><option value="low">ارزان‌ترین</option><option value="high">گران‌ترین</option><option value="name">نام محصول</option></select></div></div><div class="filters" id="filters"><button class="active" data-cat="همه">همه</button><button data-cat="لپ‌تاپ">لپ‌تاپ</button><button data-cat="قطعات">قطعات</button><button data-cat="گیمینگ">گیمینگ</button><button data-cat="لوازم جانبی">لوازم جانبی</button><button data-cat="مانیتور">مانیتور</button><button data-cat="ذخیره‌سازی">ذخیره‌سازی</button></div><div id="productsGrid" class="grid"></div><div id="empty" class="empty hidden">محصولی با این مشخصات پیدا نشد.</div></div></section>
+<section id="about" class="section about"><div class="wrap about-grid"><div><small>چرا تک‌زون؟</small><h2>یک فروشگاه ساده، سریع و حرفه‌ای</h2><p>هدف تک‌زون این است که انتخاب تجهیزات کامپیوتری را راحت‌تر کند. این نسخه نمایشی شامل جستجو، فیلتر، علاقه‌مندی، سبد خرید و ذخیره اطلاعات در مرورگر است.</p></div><div class="features"><div>🚚<strong>ارسال سریع</strong><span>پردازش سفارش در کوتاه‌ترین زمان</span></div><div>🛡️<strong>ضمانت سلامت</strong><span>تضمین سلامت کالا هنگام تحویل</span></div><div>💬<strong>پشتیبانی</strong><span>پاسخگویی و راهنمایی قبل از خرید</span></div><div>🔒<strong>پرداخت امن</strong><span>فرآیند خرید ساده و مطمئن</span></div></div></div></section>
+<section id="contact" class="section contact"><div class="wrap contact-grid"><div><small>ارتباط با ما</small><h2>سؤالی داری؟</h2><p>فرم روبه‌رو را پر کن. در این نسخه، ارسال فرم به‌صورت نمایشی انجام می‌شود.</p><div class="contact-info"><span>👤 علی حیدری</span><span>📞 <a href="tel:09303869049">۰۹۳۰۳۸۶۹۰۴۹</a></span><span>💬 <a href="https://ble.ir/Ali200909" target="_blank" rel="noopener">پیام در بله: @Ali200909</a></span><span>📍 تهران، خیابان کامپیوتر</span></div></div><form id="contactForm"><input id="name" required placeholder="نام و نام خانوادگی"><input id="email" type="email" required placeholder="ایمیل"><textarea id="message" required rows="5" placeholder="پیام شما"></textarea><button class="primary" type="submit">ارسال پیام</button></form></div></section>
+</main>
+<footer><div class="wrap footer"><span>© ۲۰۲۶ تک‌زون</span><span>فروشگاه تخصصی کامپیوتر و لوازم جانبی | علی حیدری</span></div></footer>
+<div id="toast" class="toast"></div>
+<div id="modal" class="modal hidden"><div class="modal-box"><button class="close" id="closeModal">×</button><div id="modalContent"></div></div></div>
+<aside id="cartPanel" class="cart-panel"><div class="cart-head"><h3>سبد خرید</h3><button id="closeCart">×</button></div><div id="cartItems" class="cart-items"></div><div class="cart-bottom"><div><span>مجموع</span><strong id="cartTotal">۰ تومان</strong></div><button id="checkout" class="primary">ثبت سفارش</button></div></aside><div id="overlay" class="overlay"></div>
+<script src="script.js"></script>
+</body></html>
