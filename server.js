@@ -237,6 +237,9 @@ const server = http.createServer(async (req, res) => {
   }
 });
 
+server.keepAliveTimeout = 120000;
+server.headersTimeout = 120000;
+
 server.listen(PORT, "0.0.0.0" , () => {
   console.log("====================================");
   console.log("Ali PC Store Backend + SQLite");
