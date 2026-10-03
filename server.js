@@ -4,7 +4,7 @@ const path = require("path");
 const { DatabaseSync } = require("node:sqlite");
 
 const PORT = process.env.PORT || 3000;
-const PUBLIC_DIR = path.join(__dirname, "public");
+const PUBLIC_DIR = __dirname;
 const DB_FILE = path.join(__dirname, "store.db");
 
 // دیتابیس SQLite به صورت خودکار ساخته می‌شود.
